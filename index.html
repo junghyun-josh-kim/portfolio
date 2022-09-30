@@ -1,271 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Josh's Portfolio</title>
-    <meta name="description" content="Portfoli for world-renowned software engineer Josh">
-    <meta name="author" content="Josh">
-    <link rel="icon" type="image/png" href="imgs/icon.png">
-    <script src="https://kit.fontawesome.com/4298a2e756.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> 
-    <script src="main.js" defer></script>
-</head>
-<body>
+    <meta
+      name="description"
+      content="Portfoli for world-renowned software engineer Josh"
+    />
+    <meta
+      name="author"
+      content="Josh"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="imgs/icon.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/4298a2e756.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <script
+      src="main.js"
+      defer
+    ></script>
+  </head>
+  <body>
     <!-- Navbar-->
     <nav id="navbar">
-        <div class="navbar__logo">
-            <img src="imgs/icon.png" alert="logo" width="30" height="30">
-            <a href="#">Josh</a>
-        </div>
-        <div class="navbar__menu">
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item active">Home</li>
-                <li class="navbar__menu__item">About</li>
-                <li class="navbar__menu__item">Skills</li>
-                <li class="navbar__menu__item">My work</li>
-                <li class="navbar__menu__item">Testimonials</li>
-                <li class="navbar__menu__item">Contact</li>
-            </ul>
-        </div>
-        <!-- Toggle button -->
-        <button class="navbar__toggle-btn">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+      <div class="navbar__logo">
+        <img
+          src="imgs/icon.png"
+          alert="logo"
+          width="30"
+          height="30"
+        />
+        <a href="#">Josh</a>
+      </div>
+      <div class="navbar__menu">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item active">Home</li>
+          <li class="navbar__menu__item">About</li>
+          <li class="navbar__menu__item">Skills</li>
+          <li class="navbar__menu__item">My work</li>
+          <li class="navbar__menu__item">Testimonials</li>
+          <li class="navbar__menu__item">Contact</li>
+        </ul>
+      </div>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </nav>
     <!-- Home -->
     <section id="home">
-        <img src="imgs/profile.jpg" alt="Josh's profile photo" class="home__avatar" width="300" height="200">
-        <h1 class="home__title">Hello, <br> I'm Dream Coder</h1>
-        <h2 class="home__description">living in Canada</h2>
-        <button class="home__contact">Contact me</button>
+      <img
+        src="imgs/profile.jpg"
+        alt="Josh's profile photo"
+        class="home__avatar"
+        width="300"
+        height="200"
+      />
+      <h1 class="home__title">
+        Hello, <br />
+        I'm Dream Coder
+      </h1>
+      <h2 class="home__description">living in Canada</h2>
+      <button class="home__contact">Contact me</button>
     </section>
     <!-- About -->
-    <section id="about" class="section section__container">
-        <h1>About me</h1>
-        <p>client-centered</p>
-        <div class="about__majors">
-            <div class="major">
-                <div class="major__icon">indicator</div>
-                <!-- Badges for skills -->
-                <h2 class="major__title">Front-end</h2>
-                <div class="major__description">
-                    HTML, CSS, JS, TS, React <br> Web APIs
-                </div>
-            </div>
-            <div class="major">
-                <div class="major__icon">indicator</div>
-                <!-- Badges for skills -->
-                <h2 class="major__title">Back-end</h2>
-                <div class="major__description">
-                    HTML, CSS, JS, TS, React <br> Web APIs
-                </div>
-            </div>
-            <div class="major">
-                <div class="major__icon">indicator</div>
-                <!-- Badges for skills -->
-                <h2 class="major__title">Front-end</h2>
-                <div class="major__description">
-                    HTML, CSS, JS, TS, React <br> Web APIs
-                </div>
-            </div>
+    <section
+      id="about"
+      class="section section__container"
+    >
+      <h1>About me</h1>
+      <p>client-centered</p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">indicator</div>
+          <!-- Badges for skills -->
+          <h2 class="major__title">Front-end</h2>
+          <div class="major__description">
+            HTML, CSS, JS, TS, React <br />
+            Web APIs
+          </div>
         </div>
-        <div class="about__jobs">
-            <div class="job">
-                <img src="imgs/jobs/badgePython.png" alt="python" width="100px" height="100px">
-                <!-- <img> logo 회사 학교-->
-                <div class="job__description">
-                    <p class="job__name">Description Indicator name of job</p>
-                    <p class="job__period">Description Indicator 2022</p>
-                </div>
-            </div>
-            <div class="job">
-                <img src="imgs/jobs/badgePython.png" alt="python" width="100px" height="100px">
-                <!-- <img> logo 회사 학교-->
-                <div class="job__description">
-                    <p class="job__name">Description Indicator name of job</p>
-                    <p class="job__period">Description Indicator 2022</p>
-                </div>
-            </div>
+        <div class="major">
+          <div class="major__icon">indicator</div>
+          <!-- Badges for skills -->
+          <h2 class="major__title">Back-end</h2>
+          <div class="major__description">
+            HTML, CSS, JS, TS, React <br />
+            Web APIs
+          </div>
         </div>
+        <div class="major">
+          <div class="major__icon">indicator</div>
+          <!-- Badges for skills -->
+          <h2 class="major__title">Front-end</h2>
+          <div class="major__description">
+            HTML, CSS, JS, TS, React <br />
+            Web APIs
+          </div>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img
+            src="imgs/jobs/badgePython.png"
+            alt="python"
+            width="100px"
+            height="100px"
+          />
+          <!-- <img> logo 회사 학교-->
+          <div class="job__description">
+            <p class="job__name">Description Indicator name of job</p>
+            <p class="job__period">Description Indicator 2022</p>
+          </div>
+        </div>
+        <div class="job">
+          <img
+            src="imgs/jobs/badgePython.png"
+            alt="python"
+            width="100px"
+            height="100px"
+          />
+          <!-- <img> logo 회사 학교-->
+          <div class="job__description">
+            <p class="job__name">Description Indicator name of job</p>
+            <p class="job__period">Description Indicator 2022</p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Skills -->
-    <section id="skills" class="section">
-        <div class="section__container">
-            <h1>Skills</h1>
-            <h2>Skills & Attributes</h2>
-            <p>self-thoughed 다른 스킬적 요소들 계획 잘세움 스트레스 잘 endure</p>
-            <div class="skillset">
-                <div class="skillset__left">
-                    <h3 class="skillset__title">Skills</h3>
-                    <div class="skill">
-                        <div class="skill__description">
-                            <span>HTML</span>
-                            <span>99%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value" style="width: 50%;"></div>
-                        </div>
-                        <div class="skill__description">
-                            <span>HTML</span>
-                            <span>99%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value" style="width: 50%;"></div>
-                        </div>
-                        <div class="skill__description">
-                            <span>CSS</span>
-                            <span>99%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value" style="width: 50%;"></div>
-                        </div>
-                        <div class="skill__description">
-                            <span>JAVASCRIPT</span>
-                            <span>99%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value" style="width: 50%;"></div>
-                        </div>
-                        <div class="skill__description">
-                            <span>REACT</span>
-                            <span>99%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value" style="width: 50%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skillset__right">
-                    <div class="tools">
-                        <h3 class="skillset__title">Tools</h3>
-                        <ul class="tools_list">
-                            <li><span>VS Code</span></li>
-                            <li><span>Adobe Programs</span></li>
-                            <li><span>APIs</span></li>
-                            <li><span>Team Foundation</span></li>
-                            <li><span>Sketch app</span></li>
-                        </ul>
-                    </div>
-                    <div class="etc">
-                        <h3 class="skillset__title">Etc</h3>
-                        <ul>
-                            <li><span>Git</span></li>
-                            <li><span>Git Hub</span></li>
-                        </ul>
-                    </div>
-                </div>
+    <section
+      id="skills"
+      class="section"
+    >
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>self-thoughed 다른 스킬적 요소들 계획 잘세움 스트레스 잘 endure</p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div
+                  class="skill__value"
+                  style="width: 50%"
+                ></div>
+              </div>
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div
+                  class="skill__value"
+                  style="width: 50%"
+                ></div>
+              </div>
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div
+                  class="skill__value"
+                  style="width: 50%"
+                ></div>
+              </div>
+              <div class="skill__description">
+                <span>JAVASCRIPT</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div
+                  class="skill__value"
+                  style="width: 50%"
+                ></div>
+              </div>
+              <div class="skill__description">
+                <span>REACT</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div
+                  class="skill__value"
+                  style="width: 50%"
+                ></div>
+              </div>
             </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools_list">
+                <li><span>VS Code</span></li>
+                <li><span>Adobe Programs</span></li>
+                <li><span>APIs</span></li>
+                <li><span>Team Foundation</span></li>
+                <li><span>Sketch app</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul>
+                <li><span>Git</span></li>
+                <li><span>Git Hub</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
-
+      </div>
     </section>
     <!-- Works -->
-    <section id="work" class="section">
-        <div class="section__container">
-            <H1>My work</H1>
-            <h2>Projects</h2>
-            <div class="work__categories">
-                <button class="category__btn active">
-                    All<span class="category__count">8</span>
-                </button>
-                <button class="category__btn">
-                    Front-end<span class="category__count">3</span>
-                </button>
-                <button class="category__btn">
-                    Back-end<span class="category__count">2</span>
-                </button>
-                <button class="category__btn">
-                    Client-centered<span class="category__count">2</span>
-                </button>
-            </div>
-            <div class="work__projects">
-                <a href="https://github.com/junghyun-josh-kim" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/projectreact.png" alt="React" width="100" height="100">
-                    <div class="project__description">
-                        <h3>React Site</h3>
-                        <span>Clone coding with React</span>
-                    </div>
-                </a>
-                <a href="https://github.com/junghyun-josh-kim" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/projectreact.png" alt="React" width="100" height="100">
-                    <div class="project__description">
-                        <h3>React Site</h3>
-                        <span>Clone coding with React</span>
-                    </div>
-                </a>
-                <a href="https://github.com/junghyun-josh-kim" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/projectreact.png" alt="React" width="100" height="100">
-                    <div class="project__description">
-                        <h3>React Site</h3>
-                        <span>Clone coding with React</span>
-                    </div>
-                </a>
-                <a href="https://github.com/junghyun-josh-kim" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/projectreact.png" alt="React" width="100" height="100">
-                    <div class="project__description">
-                        <h3>React Site</h3>
-                        <span>Clone coding with React</span>
-                    </div>
-                </a>
-                <a href="https://github.com/junghyun-josh-kim" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/projectreact.png" alt="React" width="100" height="100">
-                    <div class="project__description">
-                        <h3>React Site</h3>
-                        <span>Clone coding with React</span>
-                    </div>
-                </a>
-                <a href="https://github.com/junghyun-josh-kim" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/projectreact.png" alt="React" width="100" height="100">
-                    <div class="project__description">
-                        <h3>React Site</h3>
-                        <span>Clone coding with React</span>
-                    </div>
-                </a>
-            </div>
-    
+    <section
+      id="work"
+      class="section"
+    >
+      <div class="section__container">
+        <h1>My work</h1>
+        <h2>Projects</h2>
+        <div class="work__categories">
+          <button class="category__btn active">
+            All<span class="category__count">8</span>
+          </button>
+          <button class="category__btn">
+            Front-end<span class="category__count">3</span>
+          </button>
+          <button class="category__btn">
+            Back-end<span class="category__count">2</span>
+          </button>
+          <button class="category__btn">
+            Client-centered<span class="category__count">2</span>
+          </button>
         </div>
+        <div class="work__projects">
+          <a
+            href="https://github.com/junghyun-josh-kim"
+            class="project"
+            target="blank"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/projectreact.png"
+              alt="React"
+              width="100"
+              height="100"
+            />
+            <div class="project__description">
+              <h3>React Site</h3>
+              <span>Clone coding with React</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/junghyun-josh-kim"
+            class="project"
+            target="blank"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/projectreact.png"
+              alt="React"
+              width="100"
+              height="100"
+            />
+            <div class="project__description">
+              <h3>React Site</h3>
+              <span>Clone coding with React</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/junghyun-josh-kim"
+            class="project"
+            target="blank"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/projectreact.png"
+              alt="React"
+              width="100"
+              height="100"
+            />
+            <div class="project__description">
+              <h3>React Site</h3>
+              <span>Clone coding with React</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/junghyun-josh-kim"
+            class="project"
+            target="blank"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/projectreact.png"
+              alt="React"
+              width="100"
+              height="100"
+            />
+            <div class="project__description">
+              <h3>React Site</h3>
+              <span>Clone coding with React</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/junghyun-josh-kim"
+            class="project"
+            target="blank"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/projectreact.png"
+              alt="React"
+              width="100"
+              height="100"
+            />
+            <div class="project__description">
+              <h3>React Site</h3>
+              <span>Clone coding with React</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/junghyun-josh-kim"
+            class="project"
+            target="blank"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/projectreact.png"
+              alt="React"
+              width="100"
+              height="100"
+            />
+            <div class="project__description">
+              <h3>React Site</h3>
+              <span>Clone coding with React</span>
+            </div>
+          </a>
+        </div>
+      </div>
     </section>
     <!-- Testimonials -->
-    <section id="testimonials" class="section">
-        <div class="section__container">
-            <h1>Tesimonials</h1>
-            <h3>See what they say about me</h3>
-            <div class="testimonials">
-                <div class="testimonial">
-                    <img src="imgs/testimonial/testimonial1.jpeg" alt="Elon Musk" class="testimonial__avatar">
-                    <div class="testimonial__speech-bubble">
-                        <p>He is the best in Korea I would like to hire him. He is the best in Korea I would like to hire him. He is the best in Korea I would like to hire him.</p>
-                        <p class="name"><a href="">Elon Musk</a> / Tesla</p>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial__speech-bubble">
-                        <p>He is the best in Korea I would like to hire him. He is the best in Korea I would like to hire him. He is the best in Korea I would like to hire him.</p>
-                        <p class="name"><a href="">Elon Musk</a> / Tesla</p>
-                    </div>
-                    <img src="imgs/testimonial/testimonial1.jpeg" alt="Elon Musk" class="testimonial__avatar">
-                </div>
+    <section
+      id="testimonials"
+      class="section"
+    >
+      <div class="section__container">
+        <h1>Tesimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img
+              src="imgs/testimonial/testimonial1.jpeg"
+              alt="Elon Musk"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__speech-bubble">
+              <p>
+                He is the best in Korea I would like to hire him. He is the best
+                in Korea I would like to hire him. He is the best in Korea I
+                would like to hire him.
+              </p>
+              <p class="name"><a href="">Elon Musk</a> / Tesla</p>
             </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__speech-bubble">
+              <p>
+                He is the best in Korea I would like to hire him. He is the best
+                in Korea I would like to hire him. He is the best in Korea I
+                would like to hire him.
+              </p>
+              <p class="name"><a href="">Elon Musk</a> / Tesla</p>
+            </div>
+            <img
+              src="imgs/testimonial/testimonial1.jpeg"
+              alt="Elon Musk"
+              class="testimonial__avatar"
+            />
+          </div>
         </div>
+      </div>
     </section>
     <!-- Contact -->
-    <section id="contact" class="section">
-        <h1 class="contact__title">Let's talk</h1>
-        <h2 class="contact__email">jhkim911206@gmail.com</h2>
-        <div class="contact__links">
-            <a href="https://github.com/junghyun-josh-kim">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://github.com/junghyun-josh-kim">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            
-        </div>
-        <p class="contact__rights">2022 Josh Kim</p>
+    <section
+      id="contact"
+      class="section"
+    >
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">jhkim911206@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/junghyun-josh-kim">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://github.com/junghyun-josh-kim">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2022 Josh Kim</p>
     </section>
-</body>
+  </body>
 </html>
