@@ -111,7 +111,7 @@ p {
 
 #navbar.navbar--dark {
     background-color: var(--color-green);
-    padding: 8px;
+    padding: 2px;
 }
 
 .navbar__logo { 
